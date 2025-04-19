@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+ width: 1536px;
+ height: 82px;
+ background-color: #000000;
+
+
+}
+.menu {
+ padding: 0px 30px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.pubg {
+ width: 56px;
+ height: 46px;
+}
+.language {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
+}
+.english {
+ font-size: 20px;
+ color: white;
+}
+.play {
+    width: 192px;
+    height: 82px;
+    background-color: #F1A900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game {
+ font-size: 20px;
+ color: #000000;
+}
+.gamestore {
+ width: 1536px;
+ height: 44px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ background-color: #222222;
+}
+.store {
+ font-size: 16px;
+ color: white;
+}
+.bigimage {
+ width: 1536px;
+ height: 797px;
+ background-image: url("./image\ 5.png");
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 30px;
+}
+.pcfactor {
+ display:flex ;
+ align-items: center;
+ justify-content: center;
+ gap: 40px;
+}
+.pc {
+ width: 235px;
+ height: 73px;
+ background-color: #F1A900;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.pcp {
+ font-size: 40px;
+ color: #000000;
+}
+.console {
+    width: 235px;
+    height: 73px;
+    background-color: #000000;
+    display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.consolep {
+ font-size: 40px;
+ color: #FFFFFF;
+}
+.erangel {
+ width: 966px;
+ height: 202px;
+ background-color: #F1A90054;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.erangelp {
+ font-size: 64px;
+ color: #FFFFFF;
+}
+.pubgfooter {
+ width: 1536px;
+ height: 101px;
+ background-color: #000000;
+ padding: 0px 30px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.icons {
+ display: flex;
+ gap: 25px;
+}
+img {
+ width: 24px;
+ height: 24px;
+}
